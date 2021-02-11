@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.pratian.SauceDemo.Automation.Tests.TestAddCartitem">
+        <methods>
+          <include name="AddtoCart" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="extentFlush"/>
+          <include name="setUp"/>
+          <include name="Setup"/>
+          <include name="sigin"/>
+        </methods>
+      </class> <!-- com.pratian.SauceDemo.Automation.Tests.TestAddCartitem -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

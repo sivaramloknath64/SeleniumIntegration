@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="114653" started-at="2021-02-11T21:45:30 IST" finished-at="2021-02-11T21:47:25 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="114653" started-at="2021-02-11T21:45:30 IST" finished-at="2021-02-11T21:47:25 IST">
+      <class name="com.pratian.SauceDemo.Automation.Tests.TestAddCartitem">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.pratian.SauceDemo.Automation.Tests.TestAddCartitem@33f88ab]" name="Setup" is-config="true" duration-ms="153" started-at="2021-02-11T21:45:30 IST" finished-at="2021-02-11T21:45:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="sigin()[pri:0, instance:com.pratian.SauceDemo.Automation.Tests.TestAddCartitem@33f88ab]" name="sigin" is-config="true" duration-ms="1" started-at="2021-02-11T21:45:30 IST" finished-at="2021-02-11T21:45:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sigin -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pratian.SauceDemo.Automation.Tests.TestAddCartitem@33f88ab]" name="setUp" is-config="true" duration-ms="16203" started-at="2021-02-11T21:45:30 IST" finished-at="2021-02-11T21:45:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AddtoCart(java.lang.String, java.lang.String)[pri:0, instance:com.pratian.SauceDemo.Automation.Tests.TestAddCartitem@33f88ab]" name="AddtoCart" duration-ms="97002" started-at="2021-02-11T21:45:47 IST" data-provider="signIn" finished-at="2021-02-11T21:47:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddtoCart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pratian.SauceDemo.Automation.Tests.TestAddCartitem@33f88ab]" name="tearDown" is-config="true" duration-ms="1347" started-at="2021-02-11T21:47:24 IST" finished-at="2021-02-11T21:47:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="extentFlush()[pri:0, instance:com.pratian.SauceDemo.Automation.Tests.TestAddCartitem@33f88ab]" name="extentFlush" is-config="true" duration-ms="1074" started-at="2021-02-11T21:47:25 IST" finished-at="2021-02-11T21:47:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentFlush -->
+      </class> <!-- com.pratian.SauceDemo.Automation.Tests.TestAddCartitem -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
